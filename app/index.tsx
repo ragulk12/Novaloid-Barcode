@@ -14,6 +14,7 @@ export default function InventoryScreen() {
     setExpandedId((prev) => (prev === id ? null : id));
   };
 
+
   const renderItem = ({ item }: { item: Product }) => {
     const isExpanded = expandedId === item.id;
     return (
