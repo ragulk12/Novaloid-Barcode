@@ -30,7 +30,7 @@ export default function InventoryScreen() {
           </View>
           <View className="flex-row items-center">
             <View className="items-end mr-4">
-              {/* <Text className="text-slate-100 font-bold text-xl">{item.quantity}</Text> */}
+              <Text className="text-slate-100 font-bold text-xl">{item.quantity}</Text>
               <Text className="text-slate-500 text-xs">Available</Text>
             </View>
 
